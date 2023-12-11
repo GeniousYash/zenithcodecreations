@@ -83,7 +83,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 11%;
+    top: 5%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -135,7 +135,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 25%;
+    top: 0%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -185,7 +185,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 37%;
+    top: 0%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -236,7 +236,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 50%;
+    top: 5%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -288,7 +288,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 62%;
+    top: 5%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;

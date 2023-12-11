@@ -48,34 +48,34 @@ function locomotive() {
 
 
 
-const p1w = document.querySelector("page1w");
-const p1wh1 = document.querySelector("page1Content>h1");
-const p1wh3 = document.querySelector("page1Content>h3");
+const p1w = document.querySelector("#page1w");
+const p1wh1 = document.querySelector("#uh");
+const p1wh3 = document.querySelector("#lh");
 
 
-const p2w = document.querySelector("page2w");
-const p2wh1 = document.querySelector("page2Content>h1");
-const p2wh3 = document.querySelector("page2Content>h3");
+const p2w = document.querySelector("#page2w");
+const p2wh1 = document.querySelector("#page2Content>h1");
+const p2wh3 = document.querySelector("#page2Content>h3");
 
 
-const p3w = document.querySelector("page3w");
-const p3wh1 = document.querySelector("page3Content>h1");
-const p3wh3 = document.querySelector("page3Content>h3");
+const p3w = document.querySelector("#page3w");
+const p3wh1 = document.querySelector("#page3Content>h1");
+const p3wh3 = document.querySelector("#page3Content>h3");
 
 
-const p4w = document.querySelector("page4w");
-const p4wh1 = document.querySelector("page4Content>h1");
-const p4wh3 = document.querySelector("page4Content>h3");
+const p4w = document.querySelector("#page4w");
+const p4wh1 = document.querySelector("#page4Content>h1");
+const p4wh3 = document.querySelector("#page4Content>h3");
 
 
-const p5w = document.querySelector("page5w");
-const p5wh1 = document.querySelector("page5Content>h1");
-const p5wh3 = document.querySelector("page5Content>h3");
+const p5w = document.querySelector("#page5w");
+const p5wh1 = document.querySelector("#page5Content>h1");
+const p5wh3 = document.querySelector("#page5Content>h3");
 
 
-const p6w = document.querySelector("page6w");
-const p6wh1 = document.querySelector("page6Content>h1");
-const p6wh3 = document.querySelector("page6Content>h3");
+const p6w = document.querySelector("#page6w");
+const p6wh1 = document.querySelector("#page6Content>h1");
+const p6wh3 = document.querySelector("#page6Content>h3");
 
 
 
@@ -102,12 +102,48 @@ function page2work(){
   })
 
   page2Content.addEventListener("mouseenter",function(){
+    p1w.style.backgroundColor = "rgba(112, 112, 112, 0.18)";
+    p1w.style.backdropFilter = "blur(16px)";
+    p1w.style.webkitBackdropFilter = "blur(16px)";
+    p1wh1.style.color = "black";
+    p1wh3.style.color = "black";
+    
+    p2w.style.backgroundColor = "rgba(112, 112, 112, 0.18)";
+    p2w.style.backdropFilter = "blur(16px)";
+    p2w.style.webkitBackdropFilter = "blur(16px)";
+    p2wh1.style.color = "black";
+    p2wh3.style.color = "black";
+    
+    p3w.style.backgroundColor = "rgba(112, 112, 112, 0.18)";
+    p3w.style.backdropFilter = "blur(16px)";
+    p3w.style.webkitBackdropFilter = "blur(16px)";
+    p3wh1.style.color = "black";
+    p3wh3.style.color = "black";
+
     gsap.to(cursorpg2,{
       scale:1,
       opacity:1,
     })
   })
   page2Content.addEventListener("mouseleave",function(){
+    p1w.style.backgroundColor = "#262626";
+    p1wh1.style.color = "#ffffff";
+    p1wh3.style.color = "#ffffff";
+    p2w.style.backgroundColor = "#262626";
+    p2wh1.style.color = "#ffffff";
+    p2wh3.style.color = "#ffffff";
+    p3w.style.backgroundColor = "#262626";
+    p3wh1.style.color = "#ffffff";
+    p3wh3.style.color = "#ffffff";
+    p4w.style.backgroundColor = "#262626";
+    p4wh1.style.color = "#ffffff";
+    p4wh3.style.color = "#ffffff";
+    p5w.style.backgroundColor = "#262626";
+    p5wh1.style.color = "#ffffff";
+    p5wh3.style.color = "#ffffff";
+    p6w.style.backgroundColor = "#262626";
+    p6wh1.style.color = "#ffffff";
+    p6wh3.style.color = "#ffffff";
     gsap.to(cursorpg2,{
       scale:0,
       opacity:0
@@ -137,12 +173,47 @@ function page3work(){
   })
 
   page3Content.addEventListener("mouseenter",function(){
+    p2w.style.backgroundColor = "rgba(0, 42, 147, 0.43)";
+    p2w.style.backdropFilter = "blur(16px)";
+    p2w.style.webkitBackdropFilter = "blur(16px)";
+    p2wh1.style.color = "white";
+    p2wh3.style.color = "white";
+    
+    p3w.style.backgroundColor = "rgba(0, 42, 147, 0.43)";
+    p3w.style.backdropFilter = "blur(16px)";
+    p3w.style.webkitBackdropFilter = "blur(16px)";
+    p3wh1.style.color = "white";
+    p3wh3.style.color = "white";
+    
+    p4w.style.backgroundColor = "rgba(0, 42, 147, 0.43)";
+    p4w.style.backdropFilter = "blur(16px)";
+    p4w.style.webkitBackdropFilter = "blur(16px)";
+    p4wh1.style.color = "white";
+    p4wh3.style.color = "white";
     gsap.to(cursorpg3,{
       scale:1,
       opacity:1,
     })
   })
   page3Content.addEventListener("mouseleave",function(){
+    p1w.style.backgroundColor = "#262626";
+    p1wh1.style.color = "#ffffff";
+    p1wh3.style.color = "#ffffff";
+    p2w.style.backgroundColor = "#262626";
+    p2wh1.style.color = "#ffffff";
+    p2wh3.style.color = "#ffffff";
+    p3w.style.backgroundColor = "#262626";
+    p3wh1.style.color = "#ffffff";
+    p3wh3.style.color = "#ffffff";
+    p4w.style.backgroundColor = "#262626";
+    p4wh1.style.color = "#ffffff";
+    p4wh3.style.color = "#ffffff";
+    p5w.style.backgroundColor = "#262626";
+    p5wh1.style.color = "#ffffff";
+    p5wh3.style.color = "#ffffff";
+    p6w.style.backgroundColor = "#262626";
+    p6wh1.style.color = "#ffffff";
+    p6wh3.style.color = "#ffffff";
     gsap.to(cursorpg3,{
       scale:0,
       opacity:0
@@ -173,12 +244,47 @@ function page4work(){
   })
 
   page4Content.addEventListener("mouseenter",function(){
+    p3w.style.backgroundColor = "rgba(244, 244, 244, 0.43)";
+    p3w.style.backdropFilter = "blur(16px)";
+    p3w.style.webkitBackdropFilter = "blur(16px)";
+    p3wh1.style.color = "black";
+    p3wh3.style.color = "black";
+    
+    p4w.style.backgroundColor = "rgba(244, 244, 244, 0.43)";
+    p4w.style.backdropFilter = "blur(16px)";
+    p4w.style.webkitBackdropFilter = "blur(16px)";
+    p4wh1.style.color = "black";
+    p4wh3.style.color = "black";
+    
+    p5w.style.backgroundColor = "rgba(244, 244, 244, 0.43)";
+    p5w.style.backdropFilter = "blur(16px)";
+    p5w.style.webkitBackdropFilter = "blur(16px)";
+    p5wh1.style.color = "black";
+    p5wh3.style.color = "black";
     gsap.to(cursorpg4,{
       scale:1,
       opacity:1,
     })
   })
   page4Content.addEventListener("mouseleave",function(){
+    p1w.style.backgroundColor = "#262626";
+    p1wh1.style.color = "#ffffff";
+    p1wh3.style.color = "#ffffff";
+    p2w.style.backgroundColor = "#262626";
+    p2wh1.style.color = "#ffffff";
+    p2wh3.style.color = "#ffffff";
+    p3w.style.backgroundColor = "#262626";
+    p3wh1.style.color = "#ffffff";
+    p3wh3.style.color = "#ffffff";
+    p4w.style.backgroundColor = "#262626";
+    p4wh1.style.color = "#ffffff";
+    p4wh3.style.color = "#ffffff";
+    p5w.style.backgroundColor = "#262626";
+    p5wh1.style.color = "#ffffff";
+    p5wh3.style.color = "#ffffff";
+    p6w.style.backgroundColor = "#262626";
+    p6wh1.style.color = "#ffffff";
+    p6wh3.style.color = "#ffffff";
     gsap.to(cursorpg4,{
       scale:0,
       opacity:0
@@ -211,12 +317,47 @@ function page5work(){
   })
 
   page5Content.addEventListener("mouseenter",function(){
+    p4w.style.backgroundColor = "rgba(0, 255, 255, 0.45)";
+    p4w.style.backdropFilter = "blur(16px)";
+    p4w.style.webkitBackdropFilter = "blur(16px)";
+    p4wh1.style.color = "black";
+    p4wh3.style.color = "black";
+    
+    p5w.style.backgroundColor = "rgba(0, 255, 255, 0.45)";
+    p5w.style.backdropFilter = "blur(16px)";
+    p5w.style.webkitBackdropFilter = "blur(16px)";
+    p5wh1.style.color = "black";
+    p5wh3.style.color = "black";
+    
+    p6w.style.backgroundColor = "rgba(0, 255, 255, 0.45)";
+    p6w.style.backdropFilter = "blur(16px)";
+    p6w.style.webkitBackdropFilter = "blur(16px)";
+    p6wh1.style.color = "black";
+    p6wh3.style.color = "black";
     gsap.to(cursorpg5,{
       scale:1,
       opacity:1,
     })
   })
   page5Content.addEventListener("mouseleave",function(){
+    p1w.style.backgroundColor = "#262626";
+    p1wh1.style.color = "#ffffff";
+    p1wh3.style.color = "#ffffff";
+    p2w.style.backgroundColor = "#262626";
+    p2wh1.style.color = "#ffffff";
+    p2wh3.style.color = "#ffffff";
+    p3w.style.backgroundColor = "#262626";
+    p3wh1.style.color = "#ffffff";
+    p3wh3.style.color = "#ffffff";
+    p4w.style.backgroundColor = "#262626";
+    p4wh1.style.color = "#ffffff";
+    p4wh3.style.color = "#ffffff";
+    p5w.style.backgroundColor = "#262626";
+    p5wh1.style.color = "#ffffff";
+    p5wh3.style.color = "#ffffff";
+    p6w.style.backgroundColor = "#262626";
+    p6wh1.style.color = "#ffffff";
+    p6wh3.style.color = "#ffffff";
     gsap.to(cursorpg5,{
       scale:0,
       opacity:0
@@ -250,12 +391,41 @@ function page6work(){
   })
 
   page6Content.addEventListener("mouseenter",function(){
+    p5w.style.backgroundColor = "rgba(0, 0, 0, 0.57)";
+    p5w.style.backdropFilter = "blur(16px)";
+    p5w.style.webkitBackdropFilter = "blur(16px)";
+    p5wh1.style.color = "white";
+    p5wh3.style.color = "white";
+    
+    p6w.style.backgroundColor = "rgba(0, 0, 0, 0.57)";
+    p6w.style.backdropFilter = "blur(16px)";
+    p6w.style.webkitBackdropFilter = "blur(16px)";
+    p6wh1.style.color = "white";
+    p6wh3.style.color = "white";
     gsap.to(cursorpg6,{
       scale:1,
       opacity:1,
     })
   })
   page6Content.addEventListener("mouseleave",function(){
+    p1w.style.backgroundColor = "#262626";
+    p1wh1.style.color = "#ffffff";
+    p1wh3.style.color = "#ffffff";
+    p2w.style.backgroundColor = "#262626";
+    p2wh1.style.color = "#ffffff";
+    p2wh3.style.color = "#ffffff";
+    p3w.style.backgroundColor = "#262626";
+    p3wh1.style.color = "#ffffff";
+    p3wh3.style.color = "#ffffff";
+    p4w.style.backgroundColor = "#262626";
+    p4wh1.style.color = "#ffffff";
+    p4wh3.style.color = "#ffffff";
+    p5w.style.backgroundColor = "#262626";
+    p5wh1.style.color = "#ffffff";
+    p5wh3.style.color = "#ffffff";
+    p6w.style.backgroundColor = "#262626";
+    p6wh1.style.color = "#ffffff";
+    p6wh3.style.color = "#ffffff";
     gsap.to(cursorpg6,{
       scale:0,
       opacity:0
@@ -267,43 +437,3 @@ page6work();
 
 
 
-
-
-// Sapy:-
-// background: rgba(112, 112, 112, 0.18);
-// border-radius: 16px;
-// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-// backdrop-filter: blur(16px);
-// -webkit-backdrop-filter: blur(16px);
-
-
-// Cultfit:-
-// background: rgba(0, 42, 147, 0.43);
-// border-radius: 16px;
-// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-// backdrop-filter: blur(16px);
-// -webkit-backdrop-filter: blur(16px);
-
-
-// Sephora:-
-// background: rgba(244, 244, 244, 0.43);
-// border-radius: 16px;
-// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-// backdrop-filter: blur(16px);
-// -webkit-backdrop-filter: blur(16px);
-
-
-// ReactMeals:-
-// background: rgba(0, 255, 255, 0.45);
-// border-radius: 16px;
-// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-// backdrop-filter: blur(16px);
-// -webkit-backdrop-filter: blur(16px);
-
-
-// ZCC:-
-// background: rgba(0, 0, 0, 0.57);
-// border-radius: 16px;
-// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-// backdrop-filter: blur(16px);
-// -webkit-backdrop-filter: blur(16px);
