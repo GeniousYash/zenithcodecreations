@@ -1,0 +1,146 @@
+body {
+    max-width: 100%
+  }
+  
+  
+  body,
+  html {
+    overflow-x: visible;
+    font-family: BrandonTextWeb-Regular, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif
+  }
+  
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+  }
+  
+  .head {
+   width: 100%;
+    height: 50px;
+    background-color: #393a3b;
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    justify-content: center;
+    position: fixed;
+    margin-top: -8px;
+  }
+  
+  
+  
+  .head>div {
+    position: sticky;
+    background-color: #393a3b;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 8%;
+  }
+  
+  .head>div>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+  
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  .hide {
+    display: none !important;
+  }
+  
+  .overlay {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(6px);
+  }
+  
+  /* pre-loader styling  */
+  .site_loader {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 9999;
+    justify-content: center;
+  }
+  
+  .site_loader>img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* navbar styles  */
+  header {
+    width: 100%;
+    height: 60px;
+    background-color: #15171c;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    user-select: none;
+    transition: transform 0.5s ease;
+  }
+  
+  header>nav {
+    display: flex;
+    width: 96%;
+    height: 100%;
+    margin: auto;
+    color: #fff;
+    z-index: 999999;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header>nav>.navbar_logo>a>img {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  header>nav>.middle_nav_links {
+    display: flex;
+    font-size: 18px;
+    margin-left: 60px;
+  }
+  
+  header>nav>.middle_nav_links>div>a {
+    color: #fff;
+    padding: 0px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+    opacity: 70%;
+    transition: opacity 0.25s ease;
+    text-decoration: none;
+  }
+  
+  header>nav>.middle_nav_links>div>a:hover {
+    opacity: 90%;
+  }
+
+  .head>div>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }

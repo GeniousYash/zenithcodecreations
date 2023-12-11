@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Stalemate&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+}
+
+
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  #cursor-border {
+    --size: 70px;
+    position: fixed;
+    top: calc(var(--size) / -2.5);
+    left: calc(var(--size) / -2.5);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+      height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
+  }
+  
+
+#mainw{
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+#page1w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page1w>h1{
+    font-family: Tangerine;
+    color: rgb(170, 170, 170);
+    font-size: 200px;
+    letter-spacing: 20px;
+    line-height: 1.5;
+}
+#page1w>h1>span{
+    display: inline-block;
+    font-family: Tangerine;
+}
+
+#page2w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+#cursorpg2{
+    height: auto;
+    width: 40%;
+    position: fixed;
+    z-index: 9;
+    top: 11%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursorpg2>img{
+    width: 100%;
+    border-radius: 30px;
+}
+#page2Content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    z-index: 10;
+}
+#page2Content:hover{
+    transition: 2s ease;
+}
+#page2Content>h1{
+    font-size: 250px;
+    font-family: Tangerine;
+}
+#page2Content>h3{
+    font-size: 70px;
+    font-family: Tangerine;
+}
+
+
+
+#page3w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+#cursorpg3{
+    height: auto;
+    width: 40%;
+    position: fixed;
+    z-index: 9;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursorpg3>img{
+    width: 100%;
+    border-radius: 30px;
+}
+#page3Content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    z-index: 10;
+}
+#page3Content:hover{
+    transition: 2s ease;
+}
+#page3Content>h1{
+    font-size: 250px;
+    font-family: Tangerine;
+}
+#page3Content>h3{
+    font-size: 70px;
+    font-family: Tangerine;
+}
+
+#page4w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+#cursorpg4{
+    height: auto;
+    width: 40%;
+    position: fixed;
+    z-index: 9;
+    top: 37%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursorpg4>img{
+    width: 100%;
+    border-radius: 30px;
+}
+#page4Content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    z-index: 10;
+}
+#page4Content:hover{
+    transition: 2s ease;
+}
+#page4Content>h1{
+    font-size: 250px;
+    font-family: Tangerine;
+}
+#page4Content>h3{
+    font-size: 70px;
+    font-family: Tangerine;
+}
+
+
+#page5w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+#cursorpg5{
+    height: auto;
+    width: 40%;
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursorpg5>img{
+    width: 100%;
+    border-radius: 30px;
+}
+#page5Content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    z-index: 10;
+}
+#page5Content:hover{
+    transition: 2s ease;
+}
+#page5Content>h1{
+    font-size: 170px;
+    font-family: Tangerine;
+}
+#page5Content>h3{
+    font-size: 70px;
+    font-family: Tangerine;
+}
+
+
+
+#page6w{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+}
+#cursorpg6{
+    height: auto;
+    width: 40%;
+    position: fixed;
+    z-index: 9;
+    top: 62%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursorpg6>img{
+    width: 100%;
+    border-radius: 30px;
+}
+#page6Content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    z-index: 10;
+}
+#page6Content:hover{
+    transition: 2s ease;
+}
+#page6Content>h1{
+    font-size: 170px;
+    font-family: Tangerine;
+}
+#page6Content>h3{
+    font-size: 70px;
+    font-family: Tangerine;
+}
+
+#page7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(38, 38, 38);
+}
+
+#upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#letscreate{
+    width: 30%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+#letscreate>h3{
+    font-family: Tangerine;
+    line-height: 0.8;
+}
+#something{
+    width: 90%;
+    font-size: 200px;
+    color: rgb(255, 255, 255);
+}
+#something>h2{
+    font-family: Tangerine;
+
+}
+#lower{
+    width: 80%;
+    font-size: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    line-height: 0.9;
+    color: rgb(255, 255, 255);
+}
+#lower>h1{
+    font-family: Tangerine;
+}
+#lower>h3{
+    font-family: Tangerine;
+    font-size: 80px;
+    line-height: 0.6;
+}
+
+
+
+
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 11rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+   
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #ffffff;
+    font-family: Tangerine;
+    font-size: 30px;
+    font-weight: 900 !important;
+    line-height: 0.9;
+    text-align: center;
+}
+   
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}

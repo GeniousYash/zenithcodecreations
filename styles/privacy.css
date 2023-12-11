@@ -1,0 +1,45 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+}
+
+
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  #cursor-border {
+    --size: 70px;
+    position: fixed;
+    top: calc(var(--size) / -2.5);
+    left: calc(var(--size) / -2.5);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+      height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
+  }
+
+
+  #chatdiv{
+    position: fixed;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999;
+}
+#chatdiv>a>img{
+    width: 100px;
+}

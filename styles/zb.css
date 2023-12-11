@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+}
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  #cursor-border {
+    --size: 70px;
+    position: fixed;
+    top: calc(var(--size) / -2.5);
+    left: calc(var(--size) / -2.5);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+      height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
+  }
+#mainzb{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+#page1zb{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+#page1zb img{
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+#ganesh{
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#ganesh img{
+    width: 30%;
+}
+
+#centerbannerlogo{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#centerbannerlogo img{
+    width: 20%;
+}
+#bannerzcc{
+    font-size: 100px;
+    font-family: Tangerine;
+    letter-spacing: 10px;
+}
+#belowbannerzcc{
+    font-family: Tangerine;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+#page2zb{
+    width: 100%;
+    padding: 10vh 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    text-align: center;
+}
+#page2zb h1{
+    font-family: Tangerine;
+    font-size: 110px;
+    text-decoration: underline;
+}
+#page2zb h3{
+    font-family: Tangerine;
+    font-size: 50px;
+
+}
+#page4zb{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    width: 40%;
+}
+#left img{
+    width: 70%;
+    height: auto;
+}
+#right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#top{
+    text-align: end;
+    margin-left: -15rem;
+    font-size: 40px;
+}
+#top h1{
+    font-family: "Bebas Neue";
+    letter-spacing: 10px;
+}
+#bottom{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -15rem;
+    border-left: 3px solid black;
+}
+#bottom h3{
+    font-family: "Bebas Neue";
+    letter-spacing: 10px;
+}
+
+#opp{
+    font-size: 150px;
+    font-family: Tangerine;
+    text-align: center;
+    margin: 5rem;
+}
+#price{
+    background-image: url("../images/priceBg1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+#pricediv{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+#pricediv>div{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#one,#three{
+    color: black;
+    padding-top: 2rem;
+    background: rgba(217, 217, 217, 0.535);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.434);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+#two{
+    padding-top: 2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.434);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#one>h1,
+#two>h1,
+#three>h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Overlock SC;
+}
+#one>p,
+#two>p,
+#three>p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#display1,
+#display2,
+#display3{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#display1,
+#display2,
+#display3{
+    font-size: 30px;
+}
+#card div{
+    padding: 5px 0px;
+}
+#btndiv,#btndiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btn{
+    font-size: 30px;
+    background-color: #ffffff00;
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+#btn:hover{
+    font-size: 30px;
+    background-color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 25px;
+    transition: 0.8s ease ;
+}
+#btn:active{
+    font-size: 30px;
+    background-color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 25px;
+    transition: 0.1s ease;
+    transform: scale(0.94);
+}
+#btn2{
+    font-size: 30px;
+    background-color: #ffffff00;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 25px;
+    color: white;
+    border-radius: 20px;
+}
+#btn2:hover{
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 25px;
+    color: rgb(0, 0, 0);
+    transition: 0.8s ease ;
+}
+#btn2:active{
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 25px;
+    color: rgb(0, 0, 0);
+    transition: 0.1s ease;
+    transform: scale(0.94);
+}

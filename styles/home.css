@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  #cursor-border {
+    --size: 70px;
+    position: fixed;
+    top: calc(var(--size) / -2.5);
+    left: calc(var(--size) / -2.5);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+      height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
+  }
+  
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    z-index: 29;
+}
+#chatdiv{
+    position: fixed;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999;
+}
+#chatdiv>a>img{
+    width: 100px;
+}
+#bannerhome{
+    margin-top: 25%;
+    margin-bottom: 10vh;
+    aspect-ratio: 18/10;
+    object-fit: cover;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f100;
+    z-index: 9;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f100;
+    z-index: 9;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f100;
+    z-index: 9;
+}
+canvas{
+    position: relative;
+    z-index: 3;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#loop{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    height: 25%;
+    width: 100%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: gilroy;
+    z-index: 9;
+}
+#loop>h1{
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #000000;
+}
+
+#loop>h1>span{
+    -webkit-text-stroke: 1.2px #000000;
+    color: transparent;
+    font-weight: 500;
+    /* color: #ffffff; */
+}
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#page>h3{
+    position: absolute;
+    top: 60%;
+    font-family: gilroy;
+    font-weight: 400;
+    color: #000000;
+    left: 5%;
+    z-index: 9;
+}
+#page>h3:hover{
+    transform: translateX(50px);
+    transition: 1s ease-out;
+}
+#page>h4{
+    position: absolute;
+    top: 74%;
+    left: 25%;
+    font-family: gilroy;
+    font-weight: 500;
+    z-index: 9;
+    color: #000000;
+}
+#page1>#right-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 9;
+} 
+#page1>#right-text>h3:hover{
+    transform: translateX(50px);
+    transition: 0.8s ease-in-out;
+} 
+#page1>#right-text>h1:hover{
+    transform: translateX(50px);
+    transition: 0.8s ease-in-out;
+} 
+#page1>#left-text>h1:hover{
+    transform: translateX(-50px);
+    transition: 0.8s ease-in-out;
+} 
+#page1>#right-text>h3{
+    font-weight: 400;
+    color: #000000;
+    z-index: 9;
+}
+#page1>#right-text>h1{
+    line-height: 1.5;
+    font-size: 40px;
+    z-index: 9;
+    color: #000000;
+}
+#page1>#left-text{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    text-align: end;
+    z-index: 9;
+}
+#page1>#left-text>h1{
+    font-size:40px;
+    line-height: 1.5;
+    z-index: 9;
+    color: rgb(0, 0, 0);
+}
+#page2>#text1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 9;
+}
+#page2>#text1>h3{
+    color: #000000;
+    font-weight: 400;
+    z-index: 9;
+}
+#page2>#text1>h1{
+    font-size: 60px;
+    line-height: 1.5;
+    z-index: 9;
+    color: rgb(0, 0, 0);
+}
+#page2>#text1>h1:hover{
+    transform: translateX(50px);
+    transition: 0.8s ease-in-out;
+}
+#page2>#text2{
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    text-align: end;
+    z-index: 9;
+}
+#page2>#text2>p{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 9;
+}
+#page2>#text2>p:hover{
+    transform: translateX(-50px);
+    transition: 0.8s ease-in-out;
+}
+#page3>#text3{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    text-align: end;
+    z-index: 9;
+}
+#page3>#text3>h3{
+    color: #000000;
+    z-index: 9;
+    font-weight: 400;
+}
+#page3>#text3>h1{
+    font-size: 50px;
+    z-index: 9;
+    color: rgb(10, 10, 10);
+}
+#page3>#text3>h1:hover{
+    transform: translateX(-50px);
+    transition: 0.8s ease-in-out;
+}
+
