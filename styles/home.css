@@ -108,11 +108,11 @@ canvas{
     animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    color: #000000;
+    color: #ffffff;
 }
 
 #loop>h1>span{
-    -webkit-text-stroke: 1.2px #000000;
+    -webkit-text-stroke: 1.2px #ffffff;
     color: transparent;
     font-weight: 500;
     /* color: #ffffff; */
@@ -131,7 +131,7 @@ canvas{
     top: 60%;
     font-family: gilroy;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     left: 5%;
     z-index: 9;
 }
@@ -146,7 +146,7 @@ canvas{
     font-family: gilroy;
     font-weight: 500;
     z-index: 9;
-    color: #000000;
+    color: #ffffff;
 }
 #page1>#right-text{
     position: absolute;

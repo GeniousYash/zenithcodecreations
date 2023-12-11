@@ -352,7 +352,7 @@ function locomotive() {
     return data.split("\n")[index];
   }
   
-  const frameCount = 300;
+  const frameCount = 200;
   
   const images = [];
   const imageSeq = {
@@ -370,7 +370,7 @@ function locomotive() {
     snap: "frame",
     ease: `none`,
     scrollTrigger: {
-      scrub: 0.15,
+      scrub: 0.65,
       trigger: `#page>canvas`,
       start: `top top`,
       end: `600% top`,
