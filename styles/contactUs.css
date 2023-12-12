@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
+@font-face {
+    font-family: Shojumaru;
+    src: url(../Fonts/Shojumaru-Regular.woff2);
+}
+@font-face {
+    font-family: Tilt Prism;
+    src: url(../Fonts/TiltPrism.woff2);
+}
+@font-face {
+    font-family: Overlock SC;
+    src: url(../Fonts/OverlockSC-Regular.woff2);
+}
+@font-face {
+    font-family: Tangerine;
+    src: url(../Fonts/Tangerine-Regular.woff2);
+}
 
 html,body{
     height:100%;

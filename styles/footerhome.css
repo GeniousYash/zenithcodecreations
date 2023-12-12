@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
+@font-face {
+    font-family: Overlock SC;
+    src: url(../Fonts/OverlockSC-Regular.woff2);
+}
+@font-face {
+    font-family: Bebas;
+    src: url(../Fonts/BebasNeue-Regular.woff2);
+}
+
 
 .footera{
     text-decoration: none;
@@ -37,20 +45,20 @@
     margin-right: 50px;
 }
 #midsec a{
-    font-family: Bebas Neue;
+    font-family: Bebas;
     font-size: 25px;
 }
 #midsec h3{
     color: black;
     font-size: 35px;
-    font-family: Bebas Neue;
+    font-family: Bebas;
     letter-spacing: 2px;
     text-decoration: underline;
 }
 #address>h3{
     color: black;
     font-size: 35px;
-    font-family: Bebas Neue;
+    font-family: Bebas;
     letter-spacing: 3px;
     text-decoration: underline;
 }

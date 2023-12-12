@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Moon+Dance&family=Noto+Sans+Devanagari:wght@800&family=Overlock+SC&family=Poppins:wght@500&family=Shojumaru&family=Stalemate&family=Tangerine:wght@700&family=Tilt+Prism&family=Train+One&display=swap');
-
+@font-face {
+    font-family: Tangerine;
+    src: url(../Fonts/Tangerine-Regular.woff2);
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -65,6 +67,7 @@ html,body{
 #page1w>h1>span{
     display: inline-block;
     font-family: Tangerine;
+    font-weight: 100;
 }
 
 #page2w{
@@ -83,7 +86,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 5%;
+    top: -10%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -135,7 +138,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 0%;
+    top: -7%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -185,7 +188,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 0%;
+    top: -10%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -236,7 +239,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 5%;
+    top: -10%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -288,7 +291,7 @@ html,body{
     width: 40%;
     position: fixed;
     z-index: 9;
-    top: 5%;
+    top: -10%;
     left: 0%;
     transform: translate(-50%,-50%);
     display: flex;
