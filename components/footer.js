@@ -7,12 +7,11 @@ const footer =() =>{
                 <p class="c1d1p">At ZCC, we provide you a website of your need, As a WebDeveloper Company ,we and our team will develop top notch modern looking websites to boost your Buisiness</p>
             </div>
             <div id="c1d2">
-                <div id="midsec">
-                    <a href="./index.html" class="footera">Home Page</a><br><br>
+            <div id="midsec">
                     <h3>Web Content:-</h3>
-                    <a href="./zccforBuisiness.html" class="footera">About ZCC</a><br><br>
+                    <a href="./index.html" class="footera">Home Page</a><br><br>
                     <a href="./work.html" class="footera">ZCC Work</a><br><br>
-                    
+                    <a href="./zccforBuisiness.html" class="footera">About ZCC</a><br><br>
                     <a href="./contact.html" class="footera">Contact Us</a><br>
                 </div>
                 <div id="address">
