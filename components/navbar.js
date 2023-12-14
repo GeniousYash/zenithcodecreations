@@ -5,7 +5,7 @@ const navbar = () => {
       <div class="toggle_mobile_nav">
         <i class="fa-solid fa-bars"></i>
       </div>
-      <a href="../home.html"><img src="../images/LogoWhite.png"
+      <a href="./index.html"><img src="../images/LogoWhite.png"
       alt="logo"
     /> </a>
       <div id="mobile_location">Dharuhera</div>
@@ -19,20 +19,20 @@ const navbar = () => {
     />
     <p class="close_mobile_nav">X</p>
     </div>
-      <div><a href="./home.html">HOME</a></div>
+      <div><a href="./index.html">HOME</a></div>
       <div><a href="./work.html">OUR WORK</a></div>
       <div><a href="./zccforBuisiness.html">ABOUT US</a></div>
       <div><a href="./contact.html">CONTACT US</a></div>
   </div>
     <nav>
       <div class="navbar_logo">
-        <a href="../home.html"><img
+        <a href="./index.html"><img
           src="../images/LogoWhite.png"
           alt="logo" 
         /> </a>
       </div>
       <div class="middle_nav_links">
-        <div><a href="./home.html">HOME</a></div>
+        <div><a href="./index.html">HOME</a></div>
         <div><a href="./work.html">OUR WORK</a></div>
         <div><a href="./zccforBuisiness.html">ABOUT US</a></div>
         <div><a href="./contact.html">CONTACT US</a></div>

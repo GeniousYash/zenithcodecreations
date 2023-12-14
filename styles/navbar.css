@@ -207,10 +207,6 @@ header > nav > .middle_nav_links > div > a:hover {
     left: 0 !important;
     transition: left 250ms ease;
   }
-  #cart_popup {
-    left: 0;
-    width: 100%;
-  }
   #mobile_navbar {
     display: block;
   }
@@ -228,16 +224,9 @@ header > nav > .middle_nav_links > div > a:hover {
     left: 0 !important;
     transition: left 250ms ease;
   }
-  #cart_popup {
-    left: 0;
-    width: 100%;
-  }
+ 
 
-  #user_logged {
-    top: 62px;
-    width: 194px;
-    left: -844px;
-  }
+
   #mobile_navbar {
     display: block;
   }

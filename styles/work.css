@@ -472,3 +472,133 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
+@media All and (min-width: 250px) and (max-width: 520px){
+    #cursor{
+        display: none;
+    }
+    #cursor-border{
+        display: none;
+    }
+    
+    #page1w{
+        width: 100%;
+        height: 100vh;
+    }
+    #page1w>h1{
+        font-size: 100px;
+    }
+    #page2w{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/sapyforphone.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #page2w>#page2Content>h1{
+        font-size: 200px;
+        color: #00000064;
+    }
+    #page2w>#page2Content>h3{
+        color: #0000005f;
+        font-size: 50px;
+    }
+    
+    #page3w{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/cultfit.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #page3w>#page3Content>h1{
+        font-size: 200px;
+        color: #000000;
+        display: none;
+    }
+    #page3w>#page3Content>h3{
+        color: #000000;
+        font-size: 50px;
+        display: none;
+    }
+    
+    #page4w{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/sephora.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: -30px;
+    }
+    #page4w>#page4Content>h1{
+        font-size: 200px;
+        color: #00000076;
+    }
+    #page4w>#page4Content>h3{
+        color: #00000060;
+        font-size: 50px;
+    }
+    
+    #page5w{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/foodwebsite.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+    }
+    #page5w>#page5Content>h1{
+        font-size: 100px;
+        color: #0000006f;
+    }
+    #page5w>#page5Content>h3{
+        color: #0000006a;
+        font-size: 50px;
+    }
+    
+    #page6w{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/zccphone.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #page6w>#page6Content>h1{
+        font-size: 80px;
+        margin-top: -15rem;
+        color: #00000067;
+        display: none;
+        
+    }
+    #page6w>#page6Content>h3{
+        color: #00000066;
+        font-size: 50px;
+        display: none;
+    }
+
+    #page7{
+        width: 100%;
+        height: 100vh;
+    }
+    #letscreate>h3{
+        font-size: 40px;
+        margin-right: 30px;
+    }
+    #something>h2{
+        font-size: 100px;
+    }
+    #lower>h1{
+        font-size: 100px;
+    }
+    #lower>h3{
+        font-size: 50px;
+    }
+
+    #footer{
+        width: 540px;
+        height: auto;
+    }
+    
+   
+}

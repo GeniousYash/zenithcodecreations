@@ -210,7 +210,12 @@ button:hover .button-text {
 }
 
 @media All and (min-width: 520px) and (max-width: 780px){
-    
+    #cursor{
+        display: none;
+    }
+    #cursor-border{
+        display: none;
+    }
     #contactBody{
         width: 780px;
         height: auto;
@@ -242,7 +247,12 @@ button:hover .button-text {
 }
 
 @media All and (min-width: 250px) and (max-width: 520px){
-    
+    #cursor{
+        display: none;
+    }
+    #cursor-border{
+        display: none;
+    }
     
     #contactBody{
         width: 540px;
@@ -271,5 +281,6 @@ button:hover .button-text {
         width: 540px;
         height: auto;
     }
+    
    
 }

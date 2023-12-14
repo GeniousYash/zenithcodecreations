@@ -124,13 +124,16 @@ canvas{
         transform: translateX(-100%);
     }
 }
-
-#page>h3{
+#h3div{
+    position: absolute;
+    width: 500px;
+}
+#page>#h3div{
     position: absolute;
     top: 60%;
     font-family: gilroy;
     font-weight: 400;
-    color: #ffffff;
+    color: #000000;
     left: 5%;
     z-index: 9;
 }
@@ -161,6 +164,9 @@ canvas{
     transform: translateX(50px);
     transition: 0.8s ease-in-out;
 } 
+#page1>#left-text{
+    width: 500px;
+}
 #page1>#left-text>h1:hover{
     transform: translateX(-50px);
     transition: 0.8s ease-in-out;
@@ -211,9 +217,11 @@ canvas{
     transition: 0.8s ease-in-out;
 }
 #page2>#text2{
+    width: 500px;
     position: absolute;
     top: 55%;
     right: 5%;
+    display: flex;
     text-align: end;
     z-index: 9;
 }
@@ -247,5 +255,52 @@ canvas{
 #page3>#text3>h1:hover{
     transform: translateX(-50px);
     transition: 0.8s ease-in-out;
+}
+
+
+@media All and (min-width: 250px) and (max-width: 520px){
+    
+    #cursor{
+        display: none;
+    }
+    #cursor-border{
+        display: none;
+    }
+    #page>h4{
+        margin-top: 50px;
+    }
+    #h3div{
+        width: 300px;
+    }
+    #page1>#right-text{
+        margin-top: -4rem;
+    }
+    #page1>#right-text>h1{
+        font-size: 30px;
+    }
+    #page1>#right-text>h1{
+        font-size: 30px;
+    }
+    #page1>#left-text{
+        margin-top: 60px;
+        width: 300px;
+    }
+    #page1>#left-text>h1{
+        font-size: 20px;
+    }
+    #page2>#text1>h1{
+        font-size: 30px;
+    }
+    #text2{
+        width: 300px;
+        margin-top: 20px;
+        display: flex;
+        padding-left: 30%;
+    }
+
+    #footer{
+        width: 540px;
+        height: auto;
+    }
 }
 
