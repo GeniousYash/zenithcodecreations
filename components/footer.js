@@ -4,7 +4,7 @@ const footer =() =>{
         <div id="container1">
             <div id="c1d1">
                 <img src="../images/LogoBlack.png" alt="" id="flogo"><br>
-                <p class="c1d1p">At ZCC, we provide you a website of your need, As a WebDeveloper Company ,we and our team will develop top notch modern looking websites to boost your Buisiness</p>
+                <p class="c1d1p">At ZCC, we provide you a website of your need, As a WebDeveloper Company, We and our team will develop top notch modern looking websites to boost your Buisiness</p>
             </div>
             <div id="c1d2">
             <div id="midsec">

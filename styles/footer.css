@@ -33,7 +33,6 @@
     word-spacing: 10px;
     letter-spacing: 2px;
     font-family: Overlock SC;
-    text-align: justify;
 }
 #c1d2{
     display: flex;
@@ -134,21 +133,28 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: auto;
     }
     #c1d1{
-        margin-top: 5rem;
-        margin-bottom: 5rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    #c1d1 p{
+        font-size: 20px;
     }
     #c1d2{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        margin-left: -10px;
+    }
+    #c1d2>#address>a{
+        word-wrap: wrap;
+        font-size: 18px;
     }
     #c1d3{
         display: inline-block;

@@ -141,7 +141,7 @@ html,body{
 #top{
     text-align: end;
     margin-left: -15rem;
-    font-size: 40px;
+    font-size: 30px;
 }
 #top h1{
     font-family: "Bebas Neue";
@@ -310,26 +310,34 @@ html,body{
         height: 100vh;
     }
     #ganesh{
-        margin-top: -10rem;
+        margin-top: -15rem;
     }
     #ganesh img{
-        width: 200px;
-        margin-left: -30px;
+        width: 100px;
     }
     #centerbannerlogo{
-        margin-top: -20rem;
+        margin-top: -30rem;
     }
-    #centerbannerlogo>h1{
-        margin-top: 50px;
+    #centerbannerlogo>img{
+        width: 100px;
+        padding-bottom: 2rem;
+    }
+    #bannerzcc{
+        font-size: 20px;
         font-family: bebas;
-        font-size: 45px;
         letter-spacing: 2px;
     }
     #centerbannerlogo>h3{
         font-size: 20px;
+        letter-spacing: 2px;
     }
     #page2zb>h1{
-        font-size: 70px;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    #page2zb>h3{
+        font-size: 25px;
+        letter-spacing: 2px;
     }
     #page4zb{
         display: flex;
@@ -348,20 +356,33 @@ html,body{
     #right>#top{
         margin: auto;
         text-align: start;
-        font-size: 25px;
+        font-size: 20px;
+    }
+    #top>h1{
+        text-align: center;
+        letter-spacing: 2px;
     }
     #right>#bottom{
         margin: auto;
-        margin-left: -20px;
+        margin-left: 0px;
     }
     #bottom{
         border: 0px;
+    }
+    #bottom>img{
+        width: 70%;
+    }
+    #bottom>h3{
+        letter-spacing: 2px;
     }
     #price{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    #price>h1{
+        font-size: 90px;
     }
     #pricediv{
         display: grid;
@@ -376,8 +397,9 @@ html,body{
 
 
     #footer{
-        width: 540px;
+        width: 100vw;
         height: auto;
+        padding-top: 5rem;
     }
 }
 
